@@ -1,0 +1,219 @@
+#team-banner {
+  background-image: url("../img/team/parallax-bg26.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+  position: relative;
+  .title-team {
+    position: absolute;
+    top: 30%;
+    z-index: 10;
+    h1 {
+      color: rgb(255, 242, 242);
+      font-size: 60px;
+    }
+    p {
+      color: rgb(255, 242, 242);
+      font-size: 24px;
+    }
+  }
+  .overlay-contact {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+}
+#our-core-people {
+  h6 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+#teams {
+  background-color: #f8f9fc;
+  .overlow {
+    overflow: hidden;
+  }
+  img {
+    width: 100%;
+    &:hover {
+      transform: scale(1.2) rotate(6deg);
+      transition: 0.3s;
+    }
+  }
+  .title-teams {
+    margin-bottom: 60px;
+    h6 {
+      color: #151515;
+      font-weight: 500;
+      margin-top: 20px;
+      font-size: 1.4rem;
+    }
+    p {
+      margin: 0;
+      color: #080b1a;
+      font-weight: 400;
+    }
+  }
+}
+#detail-teams {
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  .detail-teams-right {
+    padding: 0 30px;
+    h2 {
+      font-size: 2.2rem;
+    }
+    h5 {
+      color: rgb(102, 102, 102);
+    }
+    p {
+      color: #151515;
+      font-size: 1.1rem;
+      text-align: justify;
+      margin: 40px 0;
+    }
+    .member-social-icon {
+      i {
+        color: #fff;
+        height: 50px;
+        width: 50px;
+        padding: 12px 15px;
+        cursor: pointer;
+        font-size: 1.6rem;
+      }
+      .fa-facebook {
+        background-color: #3b5999;
+      }
+      .fa-instagram {
+        background-color: rgb(209, 53, 118);
+      }
+      .fa-linkedin {
+        background-color: #0077b5;
+      }
+      .fa-google-plus-g {
+        background-color: rgb(241, 84, 45);
+      }
+      .fa-twitter {
+        background-color: #1da1f2;
+      }
+    }
+    .contact-member {
+      font-size: 1.1rem;
+      td:first-child {
+        font-weight: bold;
+        width: 20%;
+      }
+      td {
+        padding: 10px;
+      }
+    }
+  }
+}
+#skill {
+  .skill-right {
+    h4 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    h6 {
+      font-size: 1.4rem;
+    }
+    p {
+      color: #151515;
+      font-size: 1.1rem;
+    }
+  }
+  .skill-left {
+    h4 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .skill-bar {
+      margin: 40px 0;
+      h3 {
+        font-size: 1rem;
+        margin: 20px 0;
+      }
+      .bar {
+        background: #7a8291;
+        display: block;
+        height: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 5px #0759a5b3;
+        span {
+          height: 10px;
+          float: left;
+          background: linear-gradient(to right, #ff214f 0%, #fcb6b6 100%);
+        }
+        .html {
+          width: 98%;
+        }
+
+        .css {
+          width: 75%;
+        }
+
+        .javascript {
+          width: 90%;
+        }
+
+        .photoshop {
+          width: 70%;
+        }
+
+        .animation-html {
+          animation: html 2s;
+        }
+        .animation-css {
+          animation: css 2s;
+        }
+        .animation-javascript {
+          animation: javascript 2s;
+        }
+        .animation-photoshop {
+          animation: photoshop 2s;
+        }
+      }
+    }
+  }
+}
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 98%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes photoshop {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}

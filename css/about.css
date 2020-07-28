@@ -1,0 +1,181 @@
+#about-banner {
+  background-image: url("../img/services/parallax-bg19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+  position: relative;
+}
+#about-banner .title-about {
+  position: absolute;
+  top: 25%;
+  z-index: 10;
+}
+#about-banner .title-about h1 {
+  color: #fff2f2;
+  font-size: 60px;
+  margin: 30px 0;
+}
+#about-banner .title-about p {
+  color: #fff2f2;
+  font-size: 20px;
+}
+#about-banner .overlay-contact {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#wemake-about {
+  clear: both;
+  margin: 100px 0;
+}
+#wemake-about .wemake {
+  padding: 60px 40px 80px 0;
+}
+#wemake-about .wemake h6 {
+  font-weight: 500;
+  color: #151515;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+#wemake-about .wemake h2 {
+  font-weight: 600;
+  color: #151515;
+  line-height: 1.2;
+  font-size: 36px;
+}
+#wemake-about .wemake p {
+  font-size: 1.1rem;
+  color: #151515;
+}
+#wemake-about .img-wemake {
+  position: relative;
+  padding-left: 30px;
+}
+#wemake-about .img-wemake img {
+  width: 100%;
+}
+
+#services-about {
+  margin: 100px 0;
+}
+#services-about img {
+  width: 500%;
+  height: 50%;
+}
+#services-about h6 {
+  font-weight: 400;
+  color: #151515;
+  font-size: 26px;
+}
+#services-about p {
+  font-size: 1.1rem;
+  color: #151515;
+}
+
+#about-auto-number {
+  background-image: url("../img/about/fun-fact-bg.0246ddce.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 50px 0;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+#about-auto-number::before {
+  background-color: rgba(8, 11, 26, 0.92);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+#about-auto-number h6 {
+  font-size: 1.6rem;
+  margin: 20px 0;
+}
+#about-auto-number h2 {
+  font-size: 1.6rem;
+}
+
+#creative-about .creative-about-left {
+  background-color: #080b1a;
+  color: #fff;
+  padding: 100px 50px;
+}
+#creative-about .creative-about-left h6 {
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+#creative-about .creative-about-left h2 {
+  font-weight: 600;
+  margin: 20px 0;
+  line-height: 1.2;
+  font-size: 36px;
+}
+#creative-about .creative-about-left p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: justify;
+  font-weight: 300;
+}
+#creative-about .creative-about-right {
+  background-image: url("../img/about/team-bg-2.ec7a058d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 80px 0 80px;
+  position: relative;
+}
+#creative-about .creative-about-right .overlay-about-right {
+  background-color: rgba(172, 170, 170, 0.418);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+#creative-about .creative-about-right .position-parent .position-title h5 {
+  font-weight: 600;
+  color: #151515;
+  font-size: 20px;
+}
+#creative-about .creative-about-right .position-parent .position-title span {
+  font-size: 1.1rem;
+  color: #151515;
+}
+
+#image-about-bot {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+}
+#image-about-bot img {
+  width: 100%;
+}
+#image-about-bot h6 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ff214f;
+  letter-spacing: 1px;
+}
+#image-about-bot h2 {
+  color: #232323;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+@media (max-width: 992px) {
+  .creative-about-right .position-parent {
+    margin-bottom: 100px;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

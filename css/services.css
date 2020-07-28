@@ -1,0 +1,218 @@
+#services-banner {
+  background-image: url("../img/services/parallax-bg19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+  position: relative;
+}
+#services-banner .title-services {
+  position: absolute;
+  top: 25%;
+  z-index: 10;
+}
+#services-banner .title-services h1 {
+  color: #fff2f2;
+  font-size: 60px;
+  margin: 30px 0;
+}
+#services-banner .title-services p {
+  color: #fff2f2;
+  font-size: 20px;
+}
+#services-banner .overlay-contact {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#provide-services {
+  clear: both;
+}
+#provide-services .provide {
+  padding: 100px 30px 80px 0;
+}
+#provide-services .provide h6 {
+  font-weight: 400;
+  color: #151515;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+#provide-services .provide h2 {
+  font-weight: 600;
+  color: #151515;
+  line-height: 1.2;
+  font-size: 36px;
+}
+#provide-services .provide p {
+  font-size: 1.1rem;
+}
+#provide-services .img-provide {
+  position: relative;
+  padding-left: 30px;
+}
+#provide-services .img-provide img {
+  width: 100%;
+}
+
+#services .services-top {
+  background-image: url("../img/services/service-bg.aca3a2ee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  position: relative;
+}
+#services .services-top .services-top-content {
+  position: absolute;
+  top: 16%;
+  z-index: 5;
+}
+#services .services-top .services-top-content h6 {
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
+#services .services-top .services-top-content h2 {
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 40px;
+  margin: 30px 0;
+}
+#services .services-top .services-top-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+#services .services-bot {
+  margin-top: -170px;
+}
+#services .services-bot .services-bot-content {
+  position: relative;
+}
+#services .services-bot .services-bot-content:hover .overlay {
+  height: 100%;
+  transition: 0.3s;
+}
+#services .services-bot .services-bot-content img {
+  width: 100%;
+}
+#services .services-bot .services-bot-content .overlay {
+  background: rgba(8, 11, 26, 0.85);
+  height: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: 0.3s;
+  overflow: hidden;
+}
+#services .services-bot .services-bot-content .overlay .overlay-content {
+  position: absolute;
+  bottom: 10%;
+  padding: 0 40px;
+}
+#services .services-bot .services-bot-content .overlay .overlay-content h2 {
+  color: #fff;
+  text-align: center;
+}
+#services .services-bot .services-bot-content .overlay .overlay-content i {
+  color: #fff;
+  margin: 10px;
+}
+#services .services-bot .services-bot-content .overlay .overlay-content p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 2px solid red;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#services .services-bot .name-services p {
+  text-align: center;
+  font-weight: 600;
+  color: #151515;
+  line-height: 1.2;
+  font-size: 24px;
+}
+
+#services-box {
+  background-image: url("../img/services/parallax-bg21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#services-box .box {
+  background-color: #fff;
+  padding: 30px 40px;
+  margin-bottom: 100px;
+}
+#services-box .box .box-icon {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  background-color: #f7f7f7;
+  margin: auto;
+}
+#services-box .box h6 {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #868686;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+#services-box .box h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #232323;
+}
+
+.box-shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#services-best {
+  background-color: #1c1c1c;
+}
+#services-best h6 {
+  color: #ff214f;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+}
+#services-best h5 {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #8b8b8b;
+  margin-top: 25px;
+}
+#services-best h4 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.border-right {
+  border-right: 0.5px solid #6f6f6f;
+}
+
+#image-services-bot img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  #provide-services .img-provide img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

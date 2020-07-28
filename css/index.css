@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.overlay-slider {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.bg-gray {
+  background-color: #1c1c1c;
+}
+
+#filter ul li {
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #6f6f6f;
+  line-height: 24px;
+}
+
+#filter .title {
+  margin-top: 40px;
+  text-transform: uppercase;
+  color: rgb(156, 190, 30);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.is-checked {
+  font-weight: 600;
+}
+#filter .content img {
+  margin-bottom: 30px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-agency {
+  color: #939393;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.about-content {
+  color: #232323;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.bg-white {
+  background-color: #fff;
+}
+.explore-services {
+  text-transform: uppercase;
+  color: #232323;
+  border: 2px solid #232323;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 0.9rem;
+}
+.explore-services:hover {
+  text-decoration: none;
+  background-color: #232323;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.box .chart {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+  line-height: 150px;
+  text-align: center;
+  font-size: 30px;
+}
+.box canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.title-chart {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #4e4e4e;
+  margin: 20px 0 50px 0;
+  font-weight: 400;
+}
+
+.creative {
+  color: #939393;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.creative-content {
+  color: #141414;
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.team-image {
+  position: relative;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.overlay-content {
+  position: absolute;
+  bottom: 10%;
+  padding: 0 20px;
+}
+.overlay i {
+  color: #fff;
+  margin: 10px;
+}
+.overlay p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  border-bottom: 2px solid red;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.name-people {
+  color: #232323;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.position {
+  color: #939393;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 0%;
+  margin-bottom: 100px;
+}
+.team-image:hover .overlay {
+  height: 100%;
+  transition: 0.5s;
+}
+
+.left img {
+  width: 100%;
+}
+.right {
+  background-color: #1c1c1c;
+  padding: 30px 40px 0 60px;
+}
+.right h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+  color: #d6d5d5;
+}
+/* .right-content {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 50px 0;
+} */
+.your-business {
+  text-transform: uppercase;
+  color: #232323;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  background: #ffffff;
+  font-weight: 500;
+}
+.your-business:hover {
+  text-decoration: none;
+  background-color: #232323;
+  color: #fff;
+  transition: 0.5s;
+  border: 2px solid #fff;
+}
+
+.latest {
+  color: #232323;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+}
+.latest-content {
+  font-size: 0.9rem;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 30px;
+}
+.date {
+  font-size: 12px;
+}
+.img-hover img {
+  transition: 0.3s;
+}
+.img-hover img:hover {
+  transform: scale(1.2) rotate(6deg);
+  transition: 0.3s;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  .about-content {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+}
+.paddingtb-100 {
+  padding: 100px 0;
+}

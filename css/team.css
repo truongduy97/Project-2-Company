@@ -1,0 +1,210 @@
+#team-banner {
+  background-image: url("../img/team/parallax-bg26.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+  position: relative;
+}
+#team-banner .title-team {
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+}
+#team-banner .title-team h1 {
+  color: #fff2f2;
+  font-size: 60px;
+}
+#team-banner .title-team p {
+  color: #fff2f2;
+  font-size: 24px;
+}
+#team-banner .overlay-contact {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+#our-core-people h6 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+#teams {
+  background-color: #f8f9fc;
+}
+#teams .overlow {
+  overflow: hidden;
+}
+#teams img {
+  width: 100%;
+}
+#teams img:hover {
+  transform: scale(1.2) rotate(6deg);
+  transition: 0.3s;
+}
+#teams .title-teams {
+  margin-bottom: 60px;
+}
+#teams .title-teams h6 {
+  color: #151515;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+#teams .title-teams p {
+  margin: 0;
+  color: #080b1a;
+  font-weight: 400;
+}
+
+#detail-teams img {
+  width: 100%;
+  height: 80%;
+}
+#detail-teams .detail-teams-right {
+  padding: 0 30px;
+}
+#detail-teams .detail-teams-right h2 {
+  font-size: 2.2rem;
+}
+#detail-teams .detail-teams-right h5 {
+  color: #666666;
+}
+#detail-teams .detail-teams-right p {
+  color: #151515;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin: 40px 0;
+}
+#detail-teams .detail-teams-right .member-social-icon i {
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  padding: 12px 15px;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+#detail-teams .detail-teams-right .member-social-icon .fa-facebook {
+  background-color: #3b5999;
+}
+#detail-teams .detail-teams-right .member-social-icon .fa-instagram {
+  background-color: #d13576;
+}
+#detail-teams .detail-teams-right .member-social-icon .fa-linkedin {
+  background-color: #0077b5;
+}
+#detail-teams .detail-teams-right .member-social-icon .fa-google-plus-g {
+  background-color: #f1542d;
+}
+#detail-teams .detail-teams-right .member-social-icon .fa-twitter {
+  background-color: #1da1f2;
+}
+#detail-teams .detail-teams-right .contact-member {
+  font-size: 1.1rem;
+}
+#detail-teams .detail-teams-right .contact-member td:first-child {
+  font-weight: bold;
+  width: 20%;
+}
+#detail-teams .detail-teams-right .contact-member td {
+  padding: 10px;
+}
+
+#skill .skill-right h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#skill .skill-right h6 {
+  font-size: 1.4rem;
+}
+#skill .skill-right p {
+  color: #151515;
+  font-size: 1.1rem;
+}
+#skill .skill-left h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#skill .skill-left .skill-bar {
+  margin: 40px 0;
+}
+#skill .skill-left .skill-bar h3 {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+#skill .skill-left .skill-bar .bar {
+  background: #7a8291;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #0759a5b3;
+}
+#skill .skill-left .skill-bar .bar span {
+  height: 10px;
+  float: left;
+  background: linear-gradient(to right, #ff214f 0%, #fcb6b6 100%);
+}
+#skill .skill-left .skill-bar .bar .html {
+  width: 98%;
+}
+#skill .skill-left .skill-bar .bar .css {
+  width: 75%;
+}
+#skill .skill-left .skill-bar .bar .javascript {
+  width: 90%;
+}
+#skill .skill-left .skill-bar .bar .photoshop {
+  width: 70%;
+}
+#skill .skill-left .skill-bar .bar .animation-html {
+  animation: html 2s;
+}
+#skill .skill-left .skill-bar .bar .animation-css {
+  animation: css 2s;
+}
+#skill .skill-left .skill-bar .bar .animation-javascript {
+  animation: javascript 2s;
+}
+#skill .skill-left .skill-bar .bar .animation-photoshop {
+  animation: photoshop 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 98%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes javascript {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes photoshop {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=team.css.map */

@@ -1,0 +1,225 @@
+$color-gray: rgb(71, 71, 71);
+
+#services-banner {
+  background-image: url("../img/services/parallax-bg19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+  position: relative;
+  .title-services {
+    position: absolute;
+    top: 25%;
+    z-index: 10;
+    h1 {
+      color: rgb(255, 242, 242);
+      font-size: 60px;
+      margin: 30px 0;
+    }
+    p {
+      color: rgb(255, 242, 242);
+      font-size: 20px;
+    }
+  }
+  .overlay-contact {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+}
+#provide-services {
+  clear: both;
+  .provide {
+    padding: 100px 30px 80px 0;
+    h6 {
+      font-weight: 400;
+      color: #151515;
+      line-height: 1.2;
+      font-size: 1.2rem;
+    }
+    h2 {
+      font-weight: 600;
+      color: #151515;
+      line-height: 1.2;
+      font-size: 36px;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  .img-provide {
+    position: relative;
+    padding-left: 30px;
+    img {
+      width: 100%;
+      //   position: absolute;
+      //   right: 0;
+    }
+  }
+}
+#services {
+  .services-top {
+    background-image: url("../img/services/service-bg.aca3a2ee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+    .services-top-content {
+      position: absolute;
+      top: 16%;
+      z-index: 5;
+      h6 {
+        font-weight: 400;
+        color: #fff;
+        line-height: 1.2;
+        font-size: 1.2rem;
+      }
+      h2 {
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.2;
+        font-size: 40px;
+        margin: 30px 0;
+      }
+    }
+    .services-top-overlay {
+      background: rgba(0, 0, 0, 0.4);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+    }
+  }
+  .services-bot {
+    margin-top: -170px;
+    .services-bot-content {
+      position: relative;
+
+      &:hover .overlay {
+        height: 100%;
+        transition: 0.3s;
+      }
+      img {
+        width: 100%;
+      }
+      .overlay {
+        background: rgba(8, 11, 26, 0.85);
+        // background: rgba(0, 0, 0, 0.7);
+        height: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        transition: 0.3s;
+        overflow: hidden;
+        .overlay-content {
+          position: absolute;
+          bottom: 10%;
+          padding: 0 40px;
+          h2 {
+            color: #fff;
+            text-align: center;
+          }
+          i {
+            color: #fff;
+            margin: 10px;
+          }
+          p {
+            color: #fff;
+            font-size: 16px;
+            line-height: 20px;
+            border-bottom: 2px solid red;
+            padding-bottom: 20px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .name-services {
+      p {
+        text-align: center;
+        font-weight: 600;
+        color: #151515;
+        line-height: 1.2;
+        font-size: 24px;
+      }
+    }
+  }
+}
+#services-box {
+  background-image: url("../img/services/parallax-bg21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .box {
+    background-color: #fff;
+    padding: 30px 40px;
+    margin-bottom: 100px;
+    .box-icon {
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+      background-color: #f7f7f7;
+      margin: auto;
+    }
+    h6 {
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: 500;
+      color: rgb(134, 134, 134);
+      margin-top: 50px;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #232323;
+    }
+  }
+}
+.box-shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+#services-best {
+  background-color: #1c1c1c;
+  h6 {
+    color: #ff214f;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 54px;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgb(139, 139, 139);
+    margin-top: 25px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin: 10px 0;
+  }
+}
+.border-right {
+  border-right: 0.5px solid #6f6f6f;
+}
+#image-services-bot {
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  #provide-services {
+    .img-provide {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

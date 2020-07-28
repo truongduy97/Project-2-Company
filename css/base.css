@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* font-family: "Roboto", sans-serif; */
+}
+body {
+  position: relative;
+}
+/* .bg-light-gray {
+  background: #f7f7f7;
+}
+.navbar-dark {
+  background-color: #fff;
+  color: #fff;
+} */
+html {
+  scroll-behavior: smooth;
+}
+.go-up {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: rgb(221, 189, 44);
+  padding: 7px 9px;
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 50;
+  display: none;
+  animation: goup 1s ease-in-out;
+}
+.go-up .fas {
+  color: black;
+  font-size: 36px;
+}
+
+.go-up:hover {
+  background: rgb(247, 250, 70);
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+  color: #fff;
+}
+/* nav {
+  background-color: #1c1c1c;
+  background-color: none;
+} */
+.bg-nav-dark {
+  background-color: #1c1c1c;
+}
+.bg-none {
+  background-color: none;
+}
+nav i {
+  color: #fff;
+}
+nav button {
+  outline: none;
+}
+nav li {
+  margin: 8px;
+}
+nav ul li a {
+  color: #fff;
+  line-height: 1;
+  font-size: 1.1rem;
+  letter-spacing: 1.62px;
+  font-weight: 450;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: #ff214f;
+}
+nav .nav-icon i {
+  margin: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+nav .nav-icon i:hover {
+  color: #ff214f;
+}
+/* header {
+  position: relative;
+  margin-bottom: 600px;
+}
+.carousel {
+  position: absolute;
+  top: 0;
+} */
+.carousel-item img {
+  width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 25%;
+}
+.carousel-caption .title-small {
+  color: #ededed;
+  font-weight: 300;
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.carousel-caption .title-big {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-size: 65px;
+  line-height: 65px;
+}
+.search-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.92);
+  width: 100vw;
+  height: 100%vh;
+  z-index: 20;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: none;
+  animation: fadeIn 0.3s linear;
+}
+.search-overlay .search-box {
+  border-bottom: 1.5px solid white;
+  width: 40%;
+  transform: translate(400px, 300px);
+}
+
+.search-overlay .search-close {
+  position: absolute;
+  top: 70px;
+  right: 60px;
+  font-size: 1.6rem;
+  color: white;
+  transform: rotate(0deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.search-overlay .search-close:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+.search-overlay .search-box input {
+  background: none;
+  width: 92%;
+  padding: 10px 5px;
+  outline: none;
+  color: white;
+  font-size: 30px;
+  border: none;
+  font-weight: 300;
+}
+.search-overlay .search-box i {
+  font-size: 1.6rem;
+  color: white;
+}
+.search-overlay .search-box i:hover {
+  color: #ff214f;
+}
+footer {
+  font-size: 15px;
+  line-height: 20px;
+}
+footer .top-footer {
+  background: #1c1c1c;
+}
+footer .bot-footer {
+  background: #141414;
+}
+
+footer .border-right {
+  border-right: 0.5px solid #6f6f6f;
+}
+
+footer a,
+p {
+  color: #6f6f6f;
+  margin: 25px 0;
+}
+footer .text-small {
+  font-size: 15px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+footer .social-icon li {
+  display: inline-block;
+  margin: 10px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer .title-footer {
+  text-transform: uppercase;
+  color: #939393;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer .text-white-2 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+footer .image-footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer img {
+  max-width: 32%;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 992px) {
+  nav .nav-icon {
+    display: none;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-caption .title-big {
+    font-size: 57px;
+    line-height: 58px;
+  }
+
+  footer .border-right {
+    border: none;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-caption .title-big {
+    margin-bottom: 15px;
+    font-size: 37px;
+    line-height: 42px;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 10%;
+  }
+  .carousel-caption .title-small {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .carousel-caption button {
+    font-size: 0.9rem;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+}
+.paddingtb-100 {
+  padding: 100px 0;
+}
+.paddingbot-100 {
+  padding-bottom: 100px;
+}
+
+@keyframes goup {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
